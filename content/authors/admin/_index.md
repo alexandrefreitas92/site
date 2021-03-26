@@ -12,9 +12,10 @@ education:
 email: ""
 highlight_name: false
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Políticas Públicas
+- Ciência de Dados
+- Políticas de juventude
+- Criminologia
 organizations:
 - name: Fundação João Pinheiro
   url: www.fjp.mg.gov.br
@@ -42,8 +43,7 @@ superuser: true
 title: Alexandre Freitas
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Especialista em Políticas Públicas e Gestão Governamental com graduação em Administração Pública pela EG-FJP e mestrando em Sociologia na UFMG. Atua como analista de dados em políticas públicas em especial nas áreas de desenvolvimento social, juventude e segurança pública. Possui conhecimentos na área de formulação de políticas de juventude e na área de ciências de dados com formação avançada em *R*.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/Curriculo_Alexandre_Freitas.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Baixe meu {{< staticref "media/Curriculo_Alexandre_Freitas.pdf" "newtab" >}}currículo{{< /staticref >}}.

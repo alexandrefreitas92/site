@@ -1,1 +1,2 @@
-blogdown::new_site(theme = "wowchemy/starter-academic")
+library(blogdown)
+serve_site()

@@ -1,6 +1,5 @@
 ---
-bio: My research interests include distributed robotics, mobile computing and programmable
-  matter.
+bio: Minha pesquisa inclui análise e visualização de dados de vulnerabilidade social.
 education:
   courses:
   - course: Mestrado em Sociologia
@@ -9,7 +8,7 @@ education:
   - course: Graduação em Administração Pública
     institution: Fundação João Pinheiro (FJP)
     year: 2012-2016
-email: ""
+email: "alexandrefreitas92@gmail.com"
 highlight_name: false
 interests:
 - Políticas Públicas

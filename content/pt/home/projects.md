@@ -25,11 +25,13 @@ content:
   # To filter by a specific tag, set `tag` to an existing tag name.
   # To remove the toolbar, delete the entire `filter_button` block.
   filter_button:
-  - name: All
+  - name: Todos
     tag: '*'
-  - name: Deep Learning
-    tag: Deep Learning
-  - name: Other
+  - name: Diagnósticos
+    tag: Diagnósticos
+  - name: Programas e Ações
+    tag: Programas e Ações
+  - name: Outros
     tag: Demo
 
 design:

@@ -22,24 +22,43 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
-    company: GenCoin
+#    description: |2-
+#        Responsibilities include:
+#        
+#        * Analysing
+#        * Modelling
+#        * Deploying
+
+  - title: Assessor
+    company: Diretoria do Observatório de Desenvolvimento Social (SEDESE)
     company_url: ''
-    location: California
+    location: ''
+    date_start: '2019-01-01'
+    description: Construção de diagnósticos, relatórios, dashboards e sistemas para a construção do Programa Percursos Gerais, Programa Bolsa Merenda, Diagnóstico Estadual das Juventudes de Minas Gerais e o Plano Estadual de Habitação.
+
+
+  - title: Assessor
+    company: Diretoria de Programas para População de Vilas e Favelas (SEDESE)
+    company_url: ''
+    location: ''
+    date_start: '2017-11-30'
+    date_end: '2018-12-31'
+    description: Elaboração e execução do "Projeto Trampos - Promoção da Inclusão Produtiva Jovem / Programa Juventudes", política de juventude voltada para a redução das vulnerabilidades sociais e inclusão produtiva jovem.
+        
+  - title: Assessor
+    company: Subsecretaria de Integração de Segurança Pública (SESP)
+    company_url: ''
+    location: ''
     date_start: '2017-01-01'
-    date_end: ''
-    description: |2-
-        Responsibilities include:
-        
-        * Analysing
-        * Modelling
-        * Deploying
-        
-  - title: Professor
-    company: University X
+    date_end: '2017-11-30'
+    description: Gerenciamento de projetos e processos da pasta e acompanhando o planejamento estratégico das ações da Subsecretaria.
+
+  - title: Assessor
+    company: Superintendência de Gestão Estratégica do Sistema Socioeducativo (SESP)
     company_url: ''
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2016-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
+    location: ''
+    date_start: '2016-10-01'
+    date_end: '2017-01-01'
+    description: Apoio à Superintendência no Grupo de Trabalho para aperfeiçoamento do Sistema Socioeducativo.
+
 ---

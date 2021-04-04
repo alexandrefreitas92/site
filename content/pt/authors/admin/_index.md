@@ -4,7 +4,7 @@ education:
   courses:
   - course: Mestrando em Sociologia
     institution: Universidade Federal de Minas Gerais (UFMG)
-    year: 2020-Autal
+    year:
   - course: Graduação em Administração Pública
     institution: Fundação João Pinheiro (FJP)
     year: 2012-2016
@@ -12,12 +12,12 @@ email: "alexandrefreitas92@gmail.com"
 highlight_name: false
 interests:
 - Políticas Públicas
-- Ciência de Dados
 - Políticas de juventude
-- Criminologia
+- Ciência de Dados
+- Sociologia do Crime
 organizations:
-- name: Fundação João Pinheiro
-  url: www.fjp.mg.gov.br
+- name: Secretaria de Estado de Desenvolvimento Social
+  url: https://social.mg.gov.br/
 role: Especialista em Políticas Públicas e Gestão Governamental
 social:
 - icon: envelope

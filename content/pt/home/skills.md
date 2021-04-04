@@ -19,19 +19,22 @@ feature:
 - icon: r-project
   icon_pack: fab
   name: R
+  description: '100%'
  
+- icon: feather-alt
+  icon_pack: fas
+  name: Latex
+  description: '100%'
+
 - icon: python
   icon_pack: fab
   name: Python
   description: '50%'
 
-- icon: feather-alt
-  icon_pack: fas
-  name: Latex
-
 - icon: database
   icon_pack: fas
   name: SQL
+  description: '50%'
   
 # Uncomment to use emoji icons.
 #- icon = ":smile:"

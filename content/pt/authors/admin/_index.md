@@ -29,8 +29,8 @@ social:
   icon_pack: fab
   label: Follow me on Twitter
   link: https://twitter.com/Alexandremf92
-- icon: graduation-cap
-  icon_pack: fas
+- icon: lattes
+  icon_pack: ai
   link: http://lattes.cnpq.br/1273953653803386
 - icon: github
   icon_pack: fab

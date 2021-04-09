@@ -38,6 +38,10 @@ social:
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/alexandrefreitas92/
+- icon: instagram
+  icon_pack: fab
+  link: https://www.instagram.com/alexandrefreitas92/
+
 superuser: true
 title: Alexandre Freitas
 ---

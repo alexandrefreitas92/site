@@ -16,8 +16,8 @@ interests:
 - Ciência de Dados
 - Sociologia do Crime
 organizations:
-- name: Secretaria de Estado de Desenvolvimento Social
-  url: https://social.mg.gov.br/
+- name: Fundação João Pinheiro
+  url: www.fjp.mg.gov.br
 role: Especialista em Políticas Públicas e Gestão Governamental
 social:
 - icon: envelope

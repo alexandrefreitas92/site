@@ -30,10 +30,18 @@ experience:
 #        * Deploying
 
   - title: Assessor
+    company: Diretoria do Políticas Públicas (FJP)
+    company_url: ''
+    location: ''
+    date_start: '2021-04-15'
+    description: Construção de diagnósticos, relatórios, dashboards e pesquisas de monitoramento e avaliação de Programas Estratégicos do Governo de Minas Gerais. Atualmente trabalhando em uma pesquisa de avaliação do Programa Rede Cuidar e outra sobre a letalidade policial de Minas Gerais.
+
+  - title: Assessor
     company: Diretoria do Observatório de Desenvolvimento Social (SEDESE)
     company_url: ''
     location: ''
     date_start: '2019-01-01'
+    date_end: '2021-04-15'
     description: Construção de diagnósticos, relatórios, dashboards e sistemas para a construção do Programa Percursos Gerais, Programa Bolsa Merenda, Diagnóstico Estadual das Juventudes de Minas Gerais e o Plano Estadual de Habitação.
 
 

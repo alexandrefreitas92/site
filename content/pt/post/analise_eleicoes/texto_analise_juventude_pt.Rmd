@@ -3,7 +3,7 @@ title: "Análise do resultado eleitoral da Juventude do PT"
 author: 
   - Alexandre Freitas^[Militante da Juventude do PT de Belo Horizonte / MG, alexandrefreitas92@gmail.com]
   - João Vitor Leite Rodrigues^[Militante da Juventude do PT de Belo Horizonte / MG, jvleiterodrigues@gmail.com]
-date: "09 de agosto de 2021"
+date: '2021-08-09'
 output: 
   html_document:
     code_folding: hide
@@ -209,6 +209,7 @@ Como podemos ver por meio da tabela abaixo, mesmo não tendo sido eleitas, dezen
 
 O partido precisa de mais jovens, de mais mulheres e de mais negras e negros ocupando espaços de protagonismo político e de representação. A sociedade, ou pelo menos uma parcela considerável da sociedade e com a qual o PT consegue dialogar, também pede por mais jovens, mais mulheres, e mais negras e negros ocupando espaços de protagonismo político e de representação. A última eleição mostrou que o Partido dos Trabalhadores tem capacidade de responder a essas demandas. Cabe ao partido conectar-se aos diversos territórios e às diversas realidades para, não só retomar o número de representantes de antes do golpe de 2016, como superá-lo a partir de novos nomes, caras, cores e corpos.
 
+Acesse a lista com a votação de todas as candidaturas jovens do PT em https://www.alexandremfreitas.com/pt/post/analise_eleicoes/produtos/tabela_juventude_eleitos_pt.html
 ```{r tabela_jpt, message=FALSE, warning=FALSE}
 # Vereadores jovens do PT
 vereadores_jovens_pt <- pt_2020 %>%
@@ -216,7 +217,7 @@ vereadores_jovens_pt <- pt_2020 %>%
   select(-c(NR_IDADE_DATA_POSSE, SG_PARTIDO, ano))
 
 # Apresentar tabela com a lista dos vereadores eleitos pelo PT
-t_vereadores_jovens_pt <- datatable(vereadores_jovens_pt,
+t_vereadores_jovens_pt <- DT::datatable(vereadores_jovens_pt,
           filter = 'top',
           colnames = c("UF", "Município","Candidata", "Porte do Município", "Votação",
                                               "Gênero", "Cor/ raça", "Eleita?", "% de votos"),
@@ -224,10 +225,4 @@ t_vereadores_jovens_pt <- datatable(vereadores_jovens_pt,
   formatPercentage("percentual", 2) %>%
   formatRound("votos_nominais", mark = ".", digits = 0)
 
-t_vereadores_jovens_pt
-
-```
-
-```{r, echo=FALSE}
-htmltools::includeHTML("produtos/tabela_juventude_eleitos_pt.html")
 ```

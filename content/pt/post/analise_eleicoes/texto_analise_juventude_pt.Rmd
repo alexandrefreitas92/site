@@ -1,9 +1,10 @@
 ---
 title: "Análise do resultado eleitoral da Juventude do PT"
-author: 
-  - Alexandre Freitas^[Militante da Juventude do PT de Belo Horizonte / MG, alexandrefreitas92@gmail.com]
-  - João Vitor Leite Rodrigues^[Militante da Juventude do PT de Belo Horizonte / MG, jvleiterodrigues@gmail.com]
+author:
+  - Alexandre Freitas
+  - João Vitor Leite Rodrigues
 date: '2021-08-09'
+summary: "Quem são? Quantos são? Qual o perfil dos jovens petistas eleitos nessa última candidatura? Uma análise do resultado da JPT nas eleições de 2020"
 output: 
   html_document:
     code_folding: hide
@@ -24,6 +25,8 @@ library(ggthemes)
 library(htmltools)
 
 ```
+
+Autores: Alexandre Freitas^[Militante da Juventude do PT de Belo Horizonte / MG, alexandrefreitas92@gmail.com] e João Vitor Leite Rodrigues^[Militante da Juventude do PT de Belo Horizonte / MG, jvleiterodrigues@gmail.com].
 
 ## Protagonizar as lutas^[O script utilizado para a compilação da informação pode ser acessado em <https://github.com/alexandrefreitas92/analise_eleicoes2020>.]
 

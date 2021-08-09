@@ -3,7 +3,7 @@ title: "Análise do resultado eleitoral da Juventude do PT"
 author: 
   - Alexandre Freitas^[Militante da Juventude do PT de Belo Horizonte / MG, alexandrefreitas92@gmail.com]
   - João Vitor Leite Rodrigues^[Militante da Juventude do PT de Belo Horizonte / MG, jvleiterodrigues@gmail.com]
-date: "`r format(Sys.Date(), '%d/%m/%Y')`"
+date: "09 de agosto de 2021"
 output: 
   html_document:
     code_folding: hide
@@ -11,7 +11,8 @@ editor_options:
   chunk_output_type: console
 ---
 
-```{r Biblioteca, message=FALSE, warning=FALSE}
+```{r Biblioteca, message=FALSE, warning=FALSE, echo = FALSE}
+knitr::opts_chunk$set(echo=FALSE)
 
 library(tidyverse)
 library(openxlsx)
@@ -20,6 +21,7 @@ library(DT)
 library(plotly)
 library(knitr)
 library(ggthemes)
+library(htmltools)
 
 ```
 
@@ -214,12 +216,18 @@ vereadores_jovens_pt <- pt_2020 %>%
   select(-c(NR_IDADE_DATA_POSSE, SG_PARTIDO, ano))
 
 # Apresentar tabela com a lista dos vereadores eleitos pelo PT
-datatable(vereadores_jovens_pt,
+t_vereadores_jovens_pt <- datatable(vereadores_jovens_pt,
           filter = 'top',
           colnames = c("UF", "Município","Candidata", "Porte do Município", "Votação",
                                               "Gênero", "Cor/ raça", "Eleita?", "% de votos"),
           caption = "Tabela com todos(as) os(as) candidatos a vereador jovens do PT em 2020") %>%
   formatPercentage("percentual", 2) %>%
   formatRound("votos_nominais", mark = ".", digits = 0)
+
+t_vereadores_jovens_pt
+
 ```
 
+```{r, echo=FALSE}
+htmltools::includeHTML("produtos/tabela_juventude_eleitos_pt.html")
+```
